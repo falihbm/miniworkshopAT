@@ -14,3 +14,8 @@ test('User are able to navigate to the men page', async ({ page }) => {
     await page.locator("//span[contains(text(),'Men')]").click();
     await expect(page.locator("//h1/span")).toContainText('Men');
 })
+
+test('User are able to navigate to the men page2', async ({ page }) => {
+    await page.locator("//span[contains(text(),'Men')]").click();
+    await expect(page.locator("//h1/span")).toContainText('Men');
+})
