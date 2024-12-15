@@ -4,10 +4,10 @@ import { BuyItems } from "../pages/buyItems";
 
 test.describe("Add to cart and checkout", () => {
 
-  let email = "";  // Email yang digunakan untuk login
-  let password = ""; // Password yang digunakan untuk login
-  let firstName = "Falih Basman"; // Nama depan yang digunakan untuk login
-  let lastName = "Mubarok"; // Nama belakang yang digunakan untuk login
+  let email = "mail@mail.mail";  // Harap Isi Dengan Email yang digunakan untuk login
+  let password = "Asdf1234@"; // Harap Isi Dengan Password yang digunakan untuk login
+  let firstName = "Mustofa"; // Nama depan yang digunakan untuk login
+  let lastName = "Ali"; // Nama belakang yang digunakan untuk login
   let itemName = "Hero Hoodie"; // Nama barang yang akan dibeli
   let size = "XL"; // Ukuran barang yang akan dibeli
   let color = "Green"; // Warna barang yang akan dibeli
