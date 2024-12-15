@@ -4,8 +4,8 @@ import { BuyItems } from "../pages/buyItems";
 
 test.describe("Add to cart and checkout", () => {
 
-  let email = "falih@javan.co.id";  // Email yang digunakan untuk login
-  let password = "Asdf1234@"; // Password yang digunakan untuk login
+  let email = "";  // Email yang digunakan untuk login
+  let password = ""; // Password yang digunakan untuk login
   let firstName = "Falih Basman"; // Nama depan yang digunakan untuk login
   let lastName = "Mubarok"; // Nama belakang yang digunakan untuk login
   let itemName = "Hero Hoodie"; // Nama barang yang akan dibeli
